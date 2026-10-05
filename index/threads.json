@@ -1,0 +1,27 @@
+{
+  "01JLEGACYV1THREAD00000000001": {
+    "account": "test-account",
+    "created_at": "2026-09-15T10:00:00+00:00",
+    "pages": [
+      "2026/09/2026-09-15T1000_test-account_000001_legacy-topic_p01.md"
+    ],
+    "slug": "legacy-topic",
+    "thread_id": "01JLEGACYV1THREAD00000000001",
+    "title": "Legacy V1 Thread",
+    "turns": 1,
+    "updated_at": "2026-09-15T10:00:00+00:00"
+  },
+  "01M446WSAVDS0DHJ89XDKX2NGV": {
+    "account": "test-account",
+    "created_at": "2026-10-05T01:10:15.067561+05:30",
+    "pages": [
+      "2026/10/2026-10-05T0110_test-account_KX2NGV_rich-fixture-thread_p01.md",
+      "2026/10/2026-10-05T0110_test-account_KX2NGV_rich-fixture-thread_p03.md"
+    ],
+    "slug": "rich-fixture-thread",
+    "thread_id": "01M446WSAVDS0DHJ89XDKX2NGV",
+    "title": "Rich Fixture Thread",
+    "turns": 4,
+    "updated_at": "2026-10-05T01:10:15.113982+05:30"
+  }
+}
