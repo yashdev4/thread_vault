@@ -7,19 +7,19 @@
 "client": "claude-desktop"
 "model": ""
 "created": "2026-10-05T21:07:42.858050+00:00"
-"updated": "2026-10-05T21:09:00.216071+00:00"
+"updated": "2026-10-05T21:12:20.595103+00:00"
 "page": 1
 "prev": null
 "next": null
-"turn_count": 6
+"turn_count": 8
 "turn_range":
 - 1
 - 0
-"bytes": 1882
+"bytes": 2318
 "gaps": []
 "redacted": false
 "tags": []
-"open_turn": 3
+"open_turn": 4
 "paused": false
 "nonce": "d313"
 ---
@@ -144,8 +144,215 @@ more
 
 ---
 
-<!-- turn i=3 role=assistant fidelity=open chars=48 hash=af50fba6 nonce=d313 -->
+<!-- turn i=3 role=assistant fidelity=verbatim chars=6774 hash=d5f3aaee nonce=d313 -->
+## Claude
+
+## 🎓 **DETAILED STUDY SESSION CONTEXTS - Last 5 Days**
+
+### **1. Gmail Email MCP Deployment** 🚀 [MOST ACTIVE - Sept 10-18]
+
+**Session Focus:** Production deployment of FastAPI-based email AI integration
+- **Architecture**: FastAPI → PostgreSQL → Google Gmail API → Claude.ai MCP
+- **Key Learnings:**
+  - OAuth 2.0 PKCE flow implementation with Google Cloud
+  - Debugging 421 Misdirected Request error (Cloudflare Host header validation)
+  - Solution: StreamingResponse MCP endpoint without FastMCP Host checks
+  - MCP protocol SSE streaming implementation
+  
+**Technical Deep-Dive:**
+- Gmail Account table (encrypted token storage with Fernet)
+- Email sync service (50 initial emails, 500KB database)
+- 7 MCP Tools exported: `search_emails`, `get_email`, `list_emails`, `get_thread`, `search_by_sender`, `search_by_subject`, `search_by_date`
+- CORS middleware for Claude.ai cross-origin access
+
+**Production Status:**
+- ✅ OAuth flow fully verified (end-to-end)
+- ✅ 50 emails from dratneria@gmail.com synced
+- ✅ MCP connector registered in Claude.ai (all 7 tools accessible)
+- ✅ Deployed on Render: https://email-connect-to-db.onrender.com
+
+**Bug Found & Documented:**
+- Image attachment mime_type mismatch (`mime_type` vs `mimeType` - camelCase validation failure)
+- Affects visual rendering in Claude chat (tested Sept 18)
+
+**Next Phase Learning:**
+- Gmail Watch API + Google Pub/Sub for real-time sync
+- Webhook implementation for async notifications
+- Pub/Sub subscription already configured (free tier)
+
+---
+
+### **2. QA Automation for Threads MCP** ✅ [TESTING ROUNDS 3-5]
+
+**Session Focus:** Building hands-off QA automation to eliminate manual testing
+- **Problem Solved:** 1 hour manual test → 15-30 min automated (500+ threads)
+- **Key Learnings:**
+  - Desktop automation (Python pyautogui OR Node.js Electron)
+  - Test execution: `save_chat_transcript` verification
+  - HTML dashboard + JSON reporting
+  - Parallel test execution architecture
+
+**Architecture (5 Core Modules):**
+1. Automator: Desktop control, prompt typing, response waiting
+2. Verifier: Transcript file validation, execution checks
+3. Reporter: HTML dashboards, pass/fail metrics, screenshot capture
+4. Logger: Structured logging of failures
+5. Config: Centralized settings
+
+**Configuration Required:**
+- `settings.json` - Claude window dimensions, automation params
+- `test_cases.json` - 500+ test prompts (still needed)
+- `.env` - Path variables for transcript directories
+
+**Study Points:**
+- Retry logic implementation
+- Screenshot-on-failure for debugging
+- Scheduling support for continuous testing
+
+**Status:** Awaiting 5 configuration answers for build (ETA: 3-4 hours)
+
+---
+
+### **3. Internal Team Instructions Testing** 📋 [COMPLETED Sept 18]
+
+**Session Focus:** Validating instruction compliance across scenarios
+- **Key Learning:** Building grounded test suites with actual data connectors
+- **Testing Framework:**
+  - 60 grounded prompts (v2 - updated)
+  - 11-point evaluation per prompt
+  - 3 company types × 3 scenario archetypes
+
+**Scoring Breakdown:**
+- Protocol compliance (3 pts): checkpoint, routing, transcript save
+- Persona adherence (4 pts): direct/factual, evidence-focused, challenge assumptions
+- Instruction adherence (2 pts): rigor/clarity gates, data routing
+- Output quality (2 pts): depth appropriateness, actionable insights
+
+**Critical Validation Points Learned:**
+- Thread routing: Claude conversation queries → Thread Wiki (never eoxs-db)
+- Company data routing: `get_client_profile` for clients, SQL for tickets/invoices
+- Quick lookup prompts (1B/2C/3B) require NO rigor gates
+- Analysis prompts (1A/2B/2D/3A) require scope/clarification before proceeding
+
+**Status:** Test suite v2 deployed with grounded prompts
+
+---
+
+### **4. EOXS Data Access for Interns** 📊 [Sept 17]
+
+**Session Focus:** Understanding intern-level data connector limitations
+- **Key Learnings:**
+  - Tool availability at intern vs full access
+  - SQL access escalation paths
+  - Roadmap for future access expansion
+  - teams-askcruz SQL tool usage
+
+**Access Scope Learned:**
+- Current tools available to interns
+- What requires escalation to senior team
+- Rate limiting & quota management
+
+---
+
+### **5. Intern Team Coordination** 👥 [ONGOING - Sept 29 Update]
+
+**Team Structure:**
+- **Yash** - QA Engineer (Travis testing lead)
+- **Shubham** - QA Lead (Stefan testing coordination)
+- **Stefan** - Test Validator (multiple rounds)
+
+**Active Projects:**
+- Travis Testing (Multiple rounds: 3, T5)
+- Stefan Testing (Multiple rounds: T3, T5)
+- Internal Team Instructions validation (completed)
+- Gmail Email MCP production deployment (live)
+
+**Coordination Tracking:**
+- Test round assignments
+- Performance metrics collection
+- Cross-project synchronization
+
+---
+
+### **6. Testing Rounds (Multi-threaded)** 🔄
+
+**Travis Testing:**
+- Round 3: Shubham/Dhanshree coordination
+- Round 3: Yash/Stefan coordination (T5)
+- Round 3: New testing iteration (dhanshree_stefan)
+
+**Stefan Testing:**
+- Round 3: Shubham/Stefan
+- Round 3-T5: Yash/Stefan coordination
+
+**All involving MCP server connector validation & QA automation**
+
+---
+
+### **7. Candidate Screening Agent** 🎤 [Sept 7]
+
+**Session Focus:** AI voice agent for recruitment
+- **Study Context:**
+  - Automated phone screening logic
+  - Role qualification algorithms
+  - Agent training & response tuning
+
+---
+
+### **8. Tier-3 Escalation SLA** 📞 [Sept 18]
+
+**Session Focus:** Cross-departmental coordination
+- **Participants:** Internal Team + Customer Success
+- **Learned:** SLA documentation, escalation procedures, response protocols
+
+---
+
+### **9. Office Assistant Plugin Research** 🏢 [Sept 5]
+
+**Session Focus:** AI office automation planning
+- **Study Context:** Claude plugins architecture, agent delegation, daily automation workflows
+
+---
+
+## 🔑 **Key Competencies Built (Last 5 Days)**
+
+| Domain | Skills Developed |
+|--------|-----------------|
+| **Backend** | FastAPI, PostgreSQL, OAuth 2.0, Google APIs |
+| **AI/ML** | MCP protocol, SSE streaming, Claude integration |
+| **DevOps** | Render deployment, Google Cloud SQL, Pub/Sub |
+| **QA/Testing** | Desktop automation, pytest frameworks, test reporting |
+| **Security** | Fernet encryption, PKCE flow, OAuth validation |
+| **Team** | Coordination, testing strategy, QA automation design |
+
+---
+
+## 📊 **Current Status Summary**
+
+| Project | Status | Last Update |
+|---------|--------|-------------|
+| Gmail Email MCP | ✅ Live & Operational | Sept 18 |
+| QA Automation | ⏳ Awaiting Config | Sept 15 |
+| Internal Validation | ✅ Complete | Sept 18 |
+| EOXS Data Access | ✅ Documented | Sept 17 |
+| Team Coordination | 🔄 Ongoing | Sept 29 |
+| Screening Agent | ⏸️ On Hold | Sept 7 |
+
+Would you like me to create a **consolidated study guide** or **focus deep-dive** on any specific area? 📚
+<!-- /turn i=3 nonce=d313 -->
+
+---
+
+<!-- turn i=4 role=user ts=2026-10-05T21:12:20.594977+00:00 fidelity=verbatim chars=6 hash=4c4555b6 anchor="extend" turn_key=0559b69872cf1c1ad21715987be2a9e5a4965fe201c8614418543912383dccb5 nonce=d313 -->
+## User
+
+extend
+<!-- /turn i=4 nonce=d313 -->
+
+---
+
+<!-- turn i=4 role=assistant fidelity=open chars=48 hash=af50fba6 nonce=d313 -->
 ## Claude
 
 [response pending — will be filled on next turn]
-<!-- /turn i=3 nonce=d313 -->
+<!-- /turn i=4 nonce=d313 -->
