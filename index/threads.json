@@ -10,5 +10,17 @@
     "title": "ThreadVault project scan and understanding docs",
     "turns": 2,
     "updated_at": "2026-10-05T13:46:31.219443+00:00"
+  },
+  "01M466ZDBPTY0PG9JCGVKTMNR7": {
+    "account": "default",
+    "created_at": "2026-10-05T14:20:09.974661+00:00",
+    "pages": [
+      "2026/10/2026-10-05T1420_default_KTMNR7_run-threadvault-loca_p01.md"
+    ],
+    "slug": "run-threadvault-loca",
+    "thread_id": "01M466ZDBPTY0PG9JCGVKTMNR7",
+    "title": "Run ThreadVault locally for testing",
+    "turns": 2,
+    "updated_at": "2026-10-05T14:20:09.980967+00:00"
   }
 }
