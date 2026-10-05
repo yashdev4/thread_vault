@@ -10,5 +10,17 @@
     "title": "Context handoff \u2014 awaiting pasted content",
     "turns": 4,
     "updated_at": "2026-10-05T12:31:04.198039+00:00"
+  },
+  "01M4619QC2ATKYBDZ4GVHWVDEN": {
+    "account": "default",
+    "created_at": "2026-10-05T12:40:56.450891+00:00",
+    "pages": [
+      "2026/10/2026-10-05T1240_default_HWVDEN_askcruz-ops-hub-fast_p01.md"
+    ],
+    "slug": "askcruz-ops-hub-fast",
+    "thread_id": "01M4619QC2ATKYBDZ4GVHWVDEN",
+    "title": "AskCruz Ops Hub: FastAPI JWT auth backend",
+    "turns": 2,
+    "updated_at": "2026-10-05T12:40:56.461947+00:00"
   }
 }
