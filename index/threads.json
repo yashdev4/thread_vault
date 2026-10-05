@@ -1,14 +1,14 @@
 {
-  "01M46S2T579X4C9AV60KVKGHXX": {
+  "01M46Y9N4AXT1MEW4P6T6M03BX": {
     "account": "default",
-    "created_at": "2026-10-05T19:36:35.751197+00:00",
+    "created_at": "2026-10-05T21:07:42.858050+00:00",
     "pages": [
-      "2026/10/2026-10-05T1936_default_VKGHXX_greeting_p01.md"
+      "2026/10/2026-10-05T2107_default_6M03BX_extract-last-5-days_p01.md"
     ],
-    "slug": "greeting",
-    "thread_id": "01M46S2T579X4C9AV60KVKGHXX",
-    "title": "Greeting",
-    "turns": 4,
-    "updated_at": "2026-10-05T19:36:59.734367+00:00"
+    "slug": "extract-last-5-days",
+    "thread_id": "01M46Y9N4AXT1MEW4P6T6M03BX",
+    "title": "Extract last 5 days study sessions",
+    "turns": 2,
+    "updated_at": "2026-10-05T21:07:42.867004+00:00"
   }
 }
