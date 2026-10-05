@@ -7,19 +7,19 @@
 "client": "claude-desktop"
 "model": ""
 "created": "2026-10-05T14:20:09.974661+00:00"
-"updated": "2026-10-05T14:46:55.877752+00:00"
+"updated": "2026-10-05T14:52:11.371705+00:00"
 "page": 1
 "prev": null
 "next": null
-"turn_count": 8
+"turn_count": 10
 "turn_range":
 - 1
 - 0
-"bytes": 3099
+"bytes": 3718
 "gaps": []
 "redacted": false
 "tags": []
-"open_turn": 4
+"open_turn": 5
 "paused": false
 "nonce": "4968"
 ---
@@ -185,8 +185,36 @@ why dhanshree? word in account?
 
 ---
 
-<!-- turn i=4 role=assistant fidelity=open chars=48 hash=af50fba6 nonce=4968 -->
+<!-- turn i=4 role=assistant fidelity=verbatim chars=808 hash=88417479 nonce=4968 -->
+## Claude
+
+"dhanshree" is not special. I copied it from your claude_desktop_config.example.json, where someone had put it as the account name. You can use any name.
+
+`THREAD_SAVE_ACCOUNT` is the name of the top-level folder your saved chats go under:
+
+```
+vault_local\<account>\2026\10\<thread>.md
+```
+
+If you leave it out, the code uses `default` (config.py:40), so files go under `vault_local\default\...`. That is what my first local test used.
+
+For local testing, I'd use something obviously fake like `"THREAD_SAVE_ACCOUNT": "local-test"`. Your test saves then stay separate from any real account folder, and you can delete that one folder when you're done.
+
+The config file you just opened is the real Claude Desktop one, so make that edit there. The account name only affects the folder name, so any value works.
+<!-- /turn i=4 nonce=4968 -->
+
+---
+
+<!-- turn i=5 role=user ts=2026-10-05T14:52:11.371600+00:00 fidelity=verbatim chars=153 hash=7c092b52 anchor="i tried twice to save and even it saved," turn_key=b4e2f02b886c2116b96f9587d1bba476ff34846b51df7f0a3bbc1c6df2cd6194 nonce=4968 -->
+## User
+
+i tried twice to save and even it saved, but not showing in claude desktop and even tried again, its reseting to initial code, and remvoing what we added
+<!-- /turn i=5 nonce=4968 -->
+
+---
+
+<!-- turn i=5 role=assistant fidelity=open chars=48 hash=af50fba6 nonce=4968 -->
 ## Claude
 
 [response pending — will be filled on next turn]
-<!-- /turn i=4 nonce=4968 -->
+<!-- /turn i=5 nonce=4968 -->
