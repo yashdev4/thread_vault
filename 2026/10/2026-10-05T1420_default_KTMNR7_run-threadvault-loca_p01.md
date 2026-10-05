@@ -7,19 +7,19 @@
 "client": "claude-desktop"
 "model": ""
 "created": "2026-10-05T14:20:09.974661+00:00"
-"updated": "2026-10-05T14:41:15.966846+00:00"
+"updated": "2026-10-05T14:46:55.877752+00:00"
 "page": 1
 "prev": null
 "next": null
-"turn_count": 6
+"turn_count": 8
 "turn_range":
 - 1
 - 0
-"bytes": 2612
+"bytes": 3099
 "gaps": []
 "redacted": false
 "tags": []
-"open_turn": 3
+"open_turn": 4
 "paused": false
 "nonce": "4968"
 ---
@@ -136,8 +136,57 @@ like i just wanted to run it locally, like as studio way, so why installing thes
 
 ---
 
-<!-- turn i=3 role=assistant fidelity=open chars=48 hash=af50fba6 nonce=4968 -->
+<!-- turn i=3 role=assistant fidelity=verbatim chars=2288 hash=f516145e nonce=4968 -->
+## Claude
+
+You don't need a tunnel or any extra install. The tunnel was only for claude.ai in the browser, which only accepts `https://` URLs. The simpler way is to connect Claude Desktop directly to your local code (stdio mode). It runs as a program on your computer, with no server, URL or Render involved.
+
+I tested this mode: starting the server through stdio and saving a turn worked, and it wrote the markdown file. I deleted that test folder afterwards.
+
+## Set it up (one time)
+
+1. Open Claude Desktop, then **Settings → Developer → Edit Config**. This opens `claude_desktop_config.json`.
+2. Add this inside it. It's the same as your claude_desktop_config.example.json, with a separate test folder:
+   ```json
+   {
+     "mcpServers": {
+       "threadvault-local": {
+         "command": "C:\\Python314\\python.exe",
+         "args": ["-m", "thread_save.server"],
+         "env": {
+           "THREAD_SAVE_VAULT_ROOT": "D:\\Dev Projects\\2026\\eoxs\\thread save\\vault_local",
+           "THREAD_SAVE_ACCOUNT": "dhanshree"
+         }
+       }
+     }
+   }
+   ```
+   If the file already has other servers, add only the `threadvault-local` block inside the existing `mcpServers`.
+3. Fully quit Claude Desktop (including the tray icon) and reopen it.
+4. Start a chat. The `vault_save_turn` tool should appear under the tools list. Then check `vault_local\dhanshree\...` for the saved files.
+
+## How it works day to day
+
+- **Code changes:** Claude Desktop starts a fresh copy of your code each time it launches. After you edit the code, restart Claude Desktop to pick it up.
+- **Render:** keep the Render connector off in Desktop while you test, so saves don't go to both places.
+- **No GitHub sync:** the stdio mode never pushes to GitHub, so there is nothing to worry about there.
+- **Differences from Render:** stdio skips the web layer (OAuth, viewer links, GitHub sync loop). It tests the core saving logic, which is the part you wanted to check. To test the exact Render web path, you'd need the HTTP server and a tunnel after all.
+
+If you only use Claude Code, `claude mcp add threadvault-local -- C:\Python314\python.exe -m thread_save.server` does the same thing, and you can skip the Desktop config. Setting this up in Claude Desktop is your choice, so I haven't touched that config file.
+<!-- /turn i=3 nonce=4968 -->
+
+---
+
+<!-- turn i=4 role=user ts=2026-10-05T14:46:55.877618+00:00 fidelity=verbatim chars=31 hash=3e6b5f9c anchor="why dhanshree? word in account?" turn_key=07cf3085a632f0ebb11d3a66df26645185ce04d950d66dcdd3e31fab97578738 nonce=4968 -->
+## User
+
+why dhanshree? word in account?
+<!-- /turn i=4 nonce=4968 -->
+
+---
+
+<!-- turn i=4 role=assistant fidelity=open chars=48 hash=af50fba6 nonce=4968 -->
 ## Claude
 
 [response pending — will be filled on next turn]
-<!-- /turn i=3 nonce=4968 -->
+<!-- /turn i=4 nonce=4968 -->
