@@ -1,134 +1,26 @@
 {
-  "01M491WNBPACPXD24XDBQQ658S": {
+  "01M494ADT5G6AGMGQ6AZYHCJMW": {
     "account": "default",
-    "created_at": "2026-10-06T16:49:00.278085+00:00",
+    "created_at": "2026-10-06T17:31:28.452981+00:00",
     "pages": [
-      "2026/10/2026-10-06T1649_default_QQ658S_askcruz-september-ta_p01.md"
+      "2026/10/2026-10-06T1731_default_YHCJMW_test-questions-for-a_p01.md"
     ],
-    "slug": "askcruz-september-ta",
-    "thread_id": "01M491WNBPACPXD24XDBQQ658S",
-    "title": "AskCruz September tasks - save transcript",
-    "turns": 2,
-    "updated_at": "2026-10-06T16:49:04.950696+00:00"
+    "slug": "test-questions-for-a",
+    "thread_id": "01M494ADT5G6AGMGQ6AZYHCJMW",
+    "title": "Test Questions for AskCruz and EOXS Connectors",
+    "turns": 1,
+    "updated_at": "2026-10-06T17:31:28.456210+00:00"
   },
-  "01M491YEZC7ACFS1SAK6DKNRWE": {
+  "01M494AX10TYSM7GF05W5ER6B1": {
     "account": "default",
-    "created_at": "2026-10-06T16:49:59.276450+00:00",
+    "created_at": "2026-10-06T17:31:44.032904+00:00",
     "pages": [
-      "2026/10/2026-10-06T1649_default_DKNRWE_odoo-pending-project_p01.md"
-    ],
-    "slug": "odoo-pending-project",
-    "thread_id": "01M491YEZC7ACFS1SAK6DKNRWE",
-    "title": "Odoo pending projects query and archival",
-    "turns": 2,
-    "updated_at": "2026-10-06T16:50:08.824142+00:00"
-  },
-  "01M491ZXGY9EGGT0VW9YNG64XY": {
-    "account": "default",
-    "created_at": "2026-10-06T16:50:46.942516+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1650_default_NG64XY_priority-projects-in_p01.md"
-    ],
-    "slug": "priority-projects-in",
-    "thread_id": "01M491ZXGY9EGGT0VW9YNG64XY",
-    "title": "Priority projects in Odoo implementation board",
-    "turns": 2,
-    "updated_at": "2026-10-06T16:51:12.084523+00:00"
-  },
-  "01M492JYGCRATSDZ8WRC30M8TM": {
-    "account": "default",
-    "created_at": "2026-10-06T17:01:10.540261+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1701_default_30M8TM_ayan-september-work_p01.md"
-    ],
-    "slug": "ayan-september-work",
-    "thread_id": "01M492JYGCRATSDZ8WRC30M8TM",
-    "title": "Ayan September work details",
-    "turns": 4,
-    "updated_at": "2026-10-06T17:02:31.497649+00:00"
-  },
-  "01M492Q6PZ2AN7DZRE23EGEHD3": {
-    "account": "default",
-    "created_at": "2026-10-06T17:03:30.015156+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1703_default_EGEHD3_askcruz-odoo-board-s_p01.md"
-    ],
-    "slug": "askcruz-odoo-board-s",
-    "thread_id": "01M492Q6PZ2AN7DZRE23EGEHD3",
-    "title": "Askcruz Odoo board status and tasks",
-    "turns": 2,
-    "updated_at": "2026-10-06T17:03:40.165728+00:00"
-  },
-  "01M492YQHYZ91GB99R6N5M439M": {
-    "account": "default",
-    "created_at": "2026-10-06T17:07:36.638133+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1707_default_5M439M_pending-projects-and_p01.md"
-    ],
-    "slug": "pending-projects-and",
-    "thread_id": "01M492YQHYZ91GB99R6N5M439M",
-    "title": "Pending projects and tasks in AskCruz Odoo board for October 2026",
-    "turns": 8,
-    "updated_at": "2026-10-06T17:23:32.804143+00:00"
-  },
-  "01M4932TZG8R2VH8JEWH6XZG8E": {
-    "account": "default",
-    "created_at": "2026-10-06T17:09:51.216424+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1709_default_6XZG8E_untitled-thread_p01.md"
+      "2026/10/2026-10-06T1731_default_5ER6B1_untitled-thread_p01.md"
     ],
     "slug": "untitled-thread",
-    "thread_id": "01M4932TZG8R2VH8JEWH6XZG8E",
+    "thread_id": "01M494AX10TYSM7GF05W5ER6B1",
     "title": "Untitled Thread",
-    "turns": 2,
-    "updated_at": "2026-10-06T17:10:01.304423+00:00"
-  },
-  "01M493SY4JCMB7ZQPB64RHE3RW": {
-    "account": "default",
-    "created_at": "2026-10-06T17:22:28.114859+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1722_default_RHE3RW_jaskeerat-september_p01.md"
-    ],
-    "slug": "jaskeerat-september",
-    "thread_id": "01M493SY4JCMB7ZQPB64RHE3RW",
-    "title": "Jaskeerat September Chat Activity Inquiry",
-    "turns": 2,
-    "updated_at": "2026-10-06T17:22:34.079395+00:00"
-  },
-  "01M493Y0Q3MWEF9RRP05VT4RD3": {
-    "account": "default",
-    "created_at": "2026-10-06T17:24:41.827971+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1724_default_VT4RD3_nidhi-rana-september_p01.md"
-    ],
-    "slug": "nidhi-rana-september",
-    "thread_id": "01M493Y0Q3MWEF9RRP05VT4RD3",
-    "title": "Nidhi Rana September Claude conversations",
-    "turns": 2,
-    "updated_at": "2026-10-06T17:25:44.288676+00:00"
-  },
-  "01M4944KNP4R5TAW4MDMW7BD27": {
-    "account": "default",
-    "created_at": "2026-10-06T17:28:17.846160+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1728_default_W7BD27_askcruz-urgent-tasks_p01.md"
-    ],
-    "slug": "askcruz-urgent-tasks",
-    "thread_id": "01M4944KNP4R5TAW4MDMW7BD27",
-    "title": "askcruz urgent tasks next 3 months",
-    "turns": 2,
-    "updated_at": "2026-10-06T17:28:43.017083+00:00"
-  },
-  "01M4944NDJCDSKEQ94A32GH5M2": {
-    "account": "default",
-    "created_at": "2026-10-06T17:28:19.634312+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1728_default_2GH5M2_ayan-september-conve_p01.md"
-    ],
-    "slug": "ayan-september-conve",
-    "thread_id": "01M4944NDJCDSKEQ94A32GH5M2",
-    "title": "Ayan September conversations list",
-    "turns": 2,
-    "updated_at": "2026-10-06T17:28:35.866391+00:00"
+    "turns": 1,
+    "updated_at": "2026-10-06T17:31:44.035942+00:00"
   }
 }
