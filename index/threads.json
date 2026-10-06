@@ -1,26 +1,14 @@
 {
-  "01M48Z14MCK53DQXTF99Q7FJ5Q": {
+  "01M491WNBPACPXD24XDBQQ658S": {
     "account": "default",
-    "created_at": "2026-10-06T15:59:01.260715+00:00",
+    "created_at": "2026-10-06T16:49:00.278085+00:00",
     "pages": [
-      "2026/10/2026-10-06T1559_default_Q7FJ5Q_eoxs-interns-overvie_p01.md"
+      "2026/10/2026-10-06T1649_default_QQ658S_askcruz-september-ta_p01.md"
     ],
-    "slug": "eoxs-interns-overvie",
-    "thread_id": "01M48Z14MCK53DQXTF99Q7FJ5Q",
-    "title": "EOXS interns overview",
-    "turns": 2,
-    "updated_at": "2026-10-06T15:59:06.006832+00:00"
-  },
-  "01M48Z8G386CKWP27S1Q0RC7ZZ": {
-    "account": "default",
-    "created_at": "2026-10-06T16:03:02.376137+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1603_default_0RC7ZZ_askcruz-interns-over_p01.md"
-    ],
-    "slug": "askcruz-interns-over",
-    "thread_id": "01M48Z8G386CKWP27S1Q0RC7ZZ",
-    "title": "AskCruz interns overview",
-    "turns": 2,
-    "updated_at": "2026-10-06T16:03:05.882030+00:00"
+    "slug": "askcruz-september-ta",
+    "thread_id": "01M491WNBPACPXD24XDBQQ658S",
+    "title": "AskCruz September tasks - save transcript",
+    "turns": 1,
+    "updated_at": "2026-10-06T16:49:00.283432+00:00"
   }
 }
