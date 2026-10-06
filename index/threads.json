@@ -1,14 +1,14 @@
 {
-  "01M46Y9N4AXT1MEW4P6T6M03BX": {
+  "01M48Z14MCK53DQXTF99Q7FJ5Q": {
     "account": "default",
-    "created_at": "2026-10-05T21:07:42.858050+00:00",
+    "created_at": "2026-10-06T15:59:01.260715+00:00",
     "pages": [
-      "2026/10/2026-10-05T2107_default_6M03BX_extract-last-5-days_p01.md"
+      "2026/10/2026-10-06T1559_default_Q7FJ5Q_eoxs-interns-overvie_p01.md"
     ],
-    "slug": "extract-last-5-days",
-    "thread_id": "01M46Y9N4AXT1MEW4P6T6M03BX",
-    "title": "Extract last 5 days study sessions",
-    "turns": 8,
-    "updated_at": "2026-10-05T21:12:20.595103+00:00"
+    "slug": "eoxs-interns-overvie",
+    "thread_id": "01M48Z14MCK53DQXTF99Q7FJ5Q",
+    "title": "EOXS interns overview",
+    "turns": 2,
+    "updated_at": "2026-10-06T15:59:06.006832+00:00"
   }
 }
