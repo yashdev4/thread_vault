@@ -7,15 +7,15 @@
 "client": "remote"
 "model": ""
 "created": "2026-10-06T18:00:04.974550+00:00"
-"updated": "2026-10-06T18:00:14.210768+00:00"
+"updated": "2026-10-06T18:01:03.583331+00:00"
 "page": 1
 "prev": null
 "next": null
-"turn_count": 2
+"turn_count": 4
 "turn_range":
 - 1
-- 3
-"bytes": 1959
+- 4
+"bytes": 2624
 "gaps": []
 "redacted": false
 "tags": []
@@ -76,3 +76,24 @@ Yes, it's saving. The ThreadVault connector is live and archived turn 1 and 2 al
 
 To answer your original question — I still need to know which platform Marty used (email, Slack, Teams, thread/vault) and roughly when, so I can pull the message for you. What's the connector you're testing?
 <!-- /turn i=3 nonce=f237 -->
+
+---
+
+<!-- turn i=4 role=user ts=2026-10-06T18:00:58.878420+00:00 fidelity=verbatim chars=23 hash=f882a78b anchor="extend this information" turn_key=75b3329028fe89f8d5b06897f72beafcb681d1c389112814dc77eca4865f5d6d nonce=f237 -->
+## User
+
+extend this information
+<!-- /turn i=4 nonce=f237 -->
+
+---
+
+<!-- turn i=4 role=assistant fidelity=reported chars=239 hash=a385f4cf nonce=f237 -->
+## Claude
+
+Which information do you want extended?
+
+1. How the ThreadVault saving works and what's being captured
+2. Details on the two connectors you're testing and what each does
+3. The archival workflow and how turns are numbered
+4. Something else
+<!-- /turn i=4 nonce=f237 -->
