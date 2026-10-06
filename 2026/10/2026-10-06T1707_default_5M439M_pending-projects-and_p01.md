@@ -7,15 +7,15 @@
 "client": "remote"
 "model": ""
 "created": "2026-10-06T17:07:36.638133+00:00"
-"updated": "2026-10-06T17:21:58.805090+00:00"
+"updated": "2026-10-06T17:23:32.804143+00:00"
 "page": 1
 "prev": null
 "next": null
-"turn_count": 6
+"turn_count": 8
 "turn_range":
 - 1
-- 3
-"bytes": 3358
+- 4
+"bytes": 3875
 "gaps": []
 "redacted": false
 "tags": []
@@ -97,3 +97,19 @@ Which part do you want extended?
 
 What's the gap?
 <!-- /turn i=3 nonce=caca -->
+
+---
+
+<!-- turn i=4 role=user ts=2026-10-06T17:23:29.190390+00:00 fidelity=verbatim chars=13 hash=1f20f0c5 anchor="so its saving" turn_key=54d2ae25bbfc866cc2ae9cfb20aed8a5936f8650e5fc535bd563b3dd405c5600 nonce=caca -->
+## User
+
+so its saving
+<!-- /turn i=4 nonce=caca -->
+
+---
+
+<!-- turn i=4 role=assistant fidelity=reported chars=109 hash=c0575c98 nonce=caca -->
+## Claude
+
+Yeah — every turn is getting logged to ThreadVault automatically as the final step. Full transcript persists.
+<!-- /turn i=4 nonce=caca -->
