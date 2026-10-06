@@ -82,5 +82,17 @@
     "title": "AskCruz 4-month goals and tasks review",
     "turns": 4,
     "updated_at": "2026-10-06T18:07:02.053662+00:00"
+  },
+  "01M496HZX2ATXXC660XZ9YR2M7": {
+    "account": "default",
+    "created_at": "2026-10-06T18:10:33.506727+00:00",
+    "pages": [
+      "2026/10/2026-10-06T1810_default_9YR2M7_making-vault-log-tur_p01.md"
+    ],
+    "slug": "making-vault-log-tur",
+    "thread_id": "01M496HZX2ATXXC660XZ9YR2M7",
+    "title": "Making vault_log_turn instruction reliable",
+    "turns": 1,
+    "updated_at": "2026-10-06T18:10:33.509437+00:00"
   }
 }
