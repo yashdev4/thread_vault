@@ -1,134 +1,14 @@
 {
-  "01M494ADT5G6AGMGQ6AZYHCJMW": {
+  "01M4B5YTBDBDR5KXEGRGP5A2WH": {
     "account": "default",
-    "created_at": "2026-10-06T17:31:28.452981+00:00",
+    "created_at": "2026-10-07T12:38:34.093356+00:00",
     "pages": [
-      "2026/10/2026-10-06T1731_default_YHCJMW_test-questions-for-a_p01.md"
+      "2026/10/2026-10-07T1238_default_P5A2WH_latest-important-ask_p01.md"
     ],
-    "slug": "test-questions-for-a",
-    "thread_id": "01M494ADT5G6AGMGQ6AZYHCJMW",
-    "title": "Test Questions for AskCruz and EOXS Connectors",
-    "turns": 6,
-    "updated_at": "2026-10-06T17:40:00.338234+00:00"
-  },
-  "01M494AX10TYSM7GF05W5ER6B1": {
-    "account": "default",
-    "created_at": "2026-10-06T17:31:44.032904+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1731_default_5ER6B1_untitled-thread_p01.md"
-    ],
-    "slug": "untitled-thread",
-    "thread_id": "01M494AX10TYSM7GF05W5ER6B1",
-    "title": "Untitled Thread",
+    "slug": "latest-important-ask",
+    "thread_id": "01M4B5YTBDBDR5KXEGRGP5A2WH",
+    "title": "Latest important askcruz task - Purchase Order Intake",
     "turns": 2,
-    "updated_at": "2026-10-06T17:32:09.696472+00:00"
-  },
-  "01M494EM9K4TGS3T1G0CWN7MSM": {
-    "account": "default",
-    "created_at": "2026-10-06T17:33:46.163265+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1733_default_WN7MSM_askcruz-pending-task_p01.md"
-    ],
-    "slug": "askcruz-pending-task",
-    "thread_id": "01M494EM9K4TGS3T1G0CWN7MSM",
-    "title": "AskCruz pending tasks inquiry",
-    "turns": 2,
-    "updated_at": "2026-10-06T17:33:52.887204+00:00"
-  },
-  "01M494Z88B9XF1STKDXJ5CWMQM": {
-    "account": "default",
-    "created_at": "2026-10-06T17:42:50.891684+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1742_default_5CWMQM_testing-askcruz-and_p01.md"
-    ],
-    "slug": "testing-askcruz-and",
-    "thread_id": "01M494Z88B9XF1STKDXJ5CWMQM",
-    "title": "Testing AskCruz and EOXS Connectors",
-    "turns": 2,
-    "updated_at": "2026-10-06T17:43:19.625927+00:00"
-  },
-  "01M4957X8RFBCBZ5H3Q34HXDYD": {
-    "account": "default",
-    "created_at": "2026-10-06T17:47:34.552348+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1747_default_4HXDYD_askcruz-client-conta_p01.md"
-    ],
-    "slug": "askcruz-client-conta",
-    "thread_id": "01M4957X8RFBCBZ5H3Q34HXDYD",
-    "title": "AskCruz client contact and background info",
-    "turns": 3,
-    "updated_at": "2026-10-06T17:48:23.037351+00:00"
-  },
-  "01M495YT3EEJ2WTYAVY5MVPYNN": {
-    "account": "default",
-    "created_at": "2026-10-06T18:00:04.974550+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1800_default_MVPYNN_untitled-thread_p01.md"
-    ],
-    "slug": "untitled-thread",
-    "thread_id": "01M495YT3EEJ2WTYAVY5MVPYNN",
-    "title": "Untitled Thread",
-    "turns": 4,
-    "updated_at": "2026-10-06T18:01:03.583331+00:00"
-  },
-  "01M4963JS19Z7HEQ3GTBHX9QRM": {
-    "account": "default",
-    "created_at": "2026-10-06T18:02:41.313286+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1802_default_HX9QRM_askcruz-4-month-goal_p01.md"
-    ],
-    "slug": "askcruz-4-month-goal",
-    "thread_id": "01M4963JS19Z7HEQ3GTBHX9QRM",
-    "title": "AskCruz 4-month goals and tasks review",
-    "turns": 4,
-    "updated_at": "2026-10-06T18:07:02.053662+00:00"
-  },
-  "01M496HZX2ATXXC660XZ9YR2M7": {
-    "account": "default",
-    "created_at": "2026-10-06T18:10:33.506727+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1810_default_9YR2M7_making-vault-log-tur_p01.md"
-    ],
-    "slug": "making-vault-log-tur",
-    "thread_id": "01M496HZX2ATXXC660XZ9YR2M7",
-    "title": "Making vault_log_turn instruction reliable",
-    "turns": 1,
-    "updated_at": "2026-10-06T18:10:33.509437+00:00"
-  },
-  "01M4975DT6B510DQQG1DA9WX5S": {
-    "account": "default",
-    "created_at": "2026-10-06T18:21:10.342805+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1821_default_A9WX5S_create-pending-task_p01.md"
-    ],
-    "slug": "create-pending-task",
-    "thread_id": "01M4975DT6B510DQQG1DA9WX5S",
-    "title": "Create pending task project in EOXS Support",
-    "turns": 3,
-    "updated_at": "2026-10-06T18:21:25.942499+00:00"
-  },
-  "01M497RV35VPRBN9YEMFDTWC8H": {
-    "account": "default",
-    "created_at": "2026-10-06T18:31:46.533540+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1831_default_DTWC8H_find-and-create-urge_p01.md"
-    ],
-    "slug": "find-and-create-urge",
-    "thread_id": "01M497RV35VPRBN9YEMFDTWC8H",
-    "title": "Find and create urgent task from askcruz September board",
-    "turns": 13,
-    "updated_at": "2026-10-06T18:47:35.791444+00:00"
-  },
-  "01M498982CWTKY6T534FA68W4Y": {
-    "account": "default",
-    "created_at": "2026-10-06T18:40:44.108750+00:00",
-    "pages": [
-      "2026/10/2026-10-06T1840_default_A68W4Y_ayans-september-clau_p01.md"
-    ],
-    "slug": "ayans-september-clau",
-    "thread_id": "01M498982CWTKY6T534FA68W4Y",
-    "title": "Ayan's September Claude Activity",
-    "turns": 2,
-    "updated_at": "2026-10-06T18:41:04.958052+00:00"
+    "updated_at": "2026-10-07T12:38:42.515543+00:00"
   }
 }
