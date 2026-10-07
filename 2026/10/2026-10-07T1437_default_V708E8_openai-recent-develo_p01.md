@@ -7,15 +7,15 @@
 "client": "remote"
 "model": ""
 "created": "2026-10-07T14:37:35.721473+00:00"
-"updated": "2026-10-07T14:38:00.796927+00:00"
+"updated": "2026-10-07T14:39:26.593575+00:00"
 "page": 1
 "prev": null
 "next": null
-"turn_count": 2
+"turn_count": 4
 "turn_range":
 - 1
-- 1
-"bytes": 3335
+- 2
+"bytes": 5092
 "gaps": []
 "redacted": false
 "tags": []
@@ -56,3 +56,33 @@ Here's what happened and why it matters:
 **Why it matters:**
 <cite index="13-1">By controlling its own chip design, OpenAI aims to reduce its dependence on outside suppliers such as Nvidia</cite>. This is a major strategic move toward vertical integration—controlling the full stack from software to custom silicon, which can dramatically lower inference costs and reduce vulnerability to supply chain constraints. The performance benchmarks suggest OpenAI has achieved competitive advantage over Nvidia's systems for the specific workload of running trained models at scale.
 <!-- /turn i=1 nonce=9c51 -->
+
+---
+
+<!-- turn i=2 role=user ts=2026-10-07T14:39:06.249815+00:00 fidelity=verbatim chars=54 hash=b796d7a2 anchor="search the web for the latest claude/ant" turn_key=3f11c6050c47dcdb570587be606ce4014ea43e57b1781f42ef3d8a2213628999 nonce=9c51 -->
+## User
+
+Search the web for the latest Claude/Anthropic update.
+<!-- /turn i=2 nonce=9c51 -->
+
+---
+
+<!-- turn i=2 role=assistant fidelity=reported chars=1280 hash=357079ca nonce=9c51 -->
+## Claude
+
+Based on the search, the most recent major Claude/Anthropic update is the September 1, 2026 release of Claude Mythos 5.1 and Claude Fable 5.1.
+
+Here's what happened:
+
+**The Release (September 1, 2026):**
+On September 1, 2026, Anthropic released Claude Mythos 5.1 and Claude Fable 5.1. These represent the latest versions of Anthropic's frontier-class models.
+
+**Mythos vs. Fable:**
+Claude Mythos is a restricted-access version with safeguards lifted in some areas, while Claude Fable 5 is a "Mythos-class" model made available for general use with a set of safeguards. Access to Mythos expanded on June 2 to 150 organizations in more than 15 countries, with early access focused on cybersecurity use cases.
+
+**Market Position:**
+Anthropic continues to dominate enterprise adoption. Anthropic is valued at $965 billion after its Series H round (May 2026), and has overtaken OpenAI in annualized revenue—at $47 billion run rate (May 2026), Anthropic now leads OpenAI's $25 billion (February 2026).
+
+**Development Focus:**
+Throughout the first half of 2026, there was a surge in "Agentic Workflows," where Claude does not merely answer a prompt but plans and executes multi-stage projects. The 2026 roadmap emphasizes autonomous reasoning agents and real-time reasoning capabilities.
+<!-- /turn i=2 nonce=9c51 -->
